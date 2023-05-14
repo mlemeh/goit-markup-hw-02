@@ -1,0 +1,229 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-dark: #2e2f42;
+  --color-white: #ffffff;
+  --color-succes: #31d0aa;
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modal-overlay: #808080;
+  --color-hero-bc: #2e2f42;
+  --color-white-bc: #ffffff;
+  --color-modal-bc: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-white-bc);
+  color: #434455;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ----- h2 -----*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+
+/* ----- h3 -----*/
+.paragraph-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+
+/* ----- p -----*/
+.paragraph-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/* ------ HEADER -----*/
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-brand);
+}
+
+.header-logo-right {
+  color: var(--color-dark);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-addr {
+  font-style: normal;
+}
+
+.header-addr-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.header-addr-link:hover,
+.header-addr-link:focus {
+  color: #404bbf;
+}
+
+/* ----- HERO -----*/
+
+/* ----- hero -----*/
+.hero {
+  background: var(--color-hero-bc);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--color-primary-brand);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-pressed-state);
+}
+
+/* ----- feature ----- */
+/* .feature-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+
+.feature-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}*/
+
+/* ----- doing ----- */
+.doing-title {
+  text-align: center;
+}
+
+/* ----- team -----*/
+.team {
+  background-color: var(--color-light);
+}
+
+.team-title {
+  text-align: center;
+}
+
+/*.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}*/
+
+.team-item {
+  background-color: #ffffff;
+}
+
+/* ----- FOOTER -----*/
+.footer {
+  background-color: var(--color-dark);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-brand);
+}
+
+.footer-logo-right {
+  color: var(--color-light);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-light);
+}
+
+/* -----  portfolio link -----*/
+
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--color-light);
+  color: var(--color-primary-brand);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--color-pressed-state);
+  color: var(--color-white);
+}
